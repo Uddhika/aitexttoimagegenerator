@@ -13,6 +13,8 @@ app.use(cors());
 app.use('/users', userroutes);
 app.use('/images', imageroutes);
 
+app.use();
+
 mongoose.connect('mongodb+srv://uddhika:1234@cluster0.chybuzw.mongodb.net/?retryWrites=true&w=majority').then(()=>{
     console.log('connected to the database');
     app.listen(5555,()=>{
