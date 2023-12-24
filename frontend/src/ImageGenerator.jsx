@@ -54,7 +54,7 @@ const ImageGenerator = () => {
             };
 
             const data = {
-                cfg_scale : 7,
+                cfg_scale : 17,
                 clip_guidance_preset : "FAST_BLUE",
                 height : height,
                 width : width,
